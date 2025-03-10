@@ -11,137 +11,108 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        main {
+            align-items: flex-start !important;
+            padding: 2rem 0;
+        }
+
+        .imprint-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .imprint-container h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #333;
+        }
+        
+        .imprint-container h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
+        }
+        
+        .imprint-container p {
+            line-height: 1.7;
+            margin-bottom: 1.2rem;
+            color: #444;
+            font-size: 1rem;
+        }
+
+        .imprint-container .multiline {
+            display: block;
+            white-space: pre-wrap;
+            margin: 1rem 0;
+        }
+
+        .imprint-container a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
+        
+        .imprint-container a:hover {
+            opacity: 0.7;
+        }
+
+        .imprint-container .small {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+    </style>
 </head>
 <body>
     <main>
-        <div class="contractDetails">
-            <style>
-            .contractDetails {
-                padding-left: 1.25cm;
-                overflow-wrap: break-word;
-            }
-            
-            p.BodyLeft,
-            p.Body {
-                margin-left: 0 !important;
-            }
-            
-            p.BodyLeft p,
-            p.Body p {
-                margin-left: 0 !important;
-            }
-            
-            p.BodyLeft p span,
-            p.Body p span {
-                margin-left: 0 !important;
-            }
-            
-            p.BodyLeft p span span,
-            p.Body p span span {
-                margin-left: 0 !important;
-            }
-            
-            .DieterLista,
-            .DieterListi,
-            .BulletList1 {
-                padding-left: 1.25cm;
-            }
-            
-            .DieterLista .number-prefix-p,
-            .DieterListi .number-prefix-p,
-            .BulletList1 .number-prefix-p {
-                margin-left: -1.25cm;
-                display: inline-block;
-                width: 1.25cm;
-            }
-            
-            .DieterListaIndent,
-            .DieterListiIndent,
-            .BulletList2 .number-prefix-p {
-                margin-left: 1.25cm;
-                display: inline-block;
-                width: 1.25cm;
-            }
-            
-            .DieterHeading2 .number-prefix-p,
-            .DieterHeading3 .number-prefix-p,
-            .DieterHeading4 .number-prefix-p {
-                display: inline-block;
-                width: 1.25cm;
-                margin-left: -1.25cm;
-            }
-            
-            .DieterHeading2,
-            .HeadingLeft {
-                font-weight: 600;
-            }
-            
-            .DieterHeading2 span:not(.number-prefix-p) {
-                margin-left: 0 !important;
-            }
-            
-            .BulletListNoIndent {
-                margin-left: 0 !important;
-            }
-            
-            .BulletListNoIndent span {
-                text-indent: 0;
-            }
-            
-            .BulletListNoIndent .number-prefix-p {
-                display: inline-block;
-                width: 1.25cm;
-                margin-left: -1.25cm;
-            }
-            
-            .BulletListNoIndent span:not(.number-prefix-p) {
-                text-indent: 1.25cm !important;
-            }
-            
-            .HeadingLeft {
-                margin-left: 0 !important;
-                font-size: 1.25rem;
-            }
-            
-            .HeadingLeft span {
-                margin-left: 0 !important;
-            }
-            
-            .DieterInvisible {
-                display: none;
-            }
-            
-            .multiline {
-                white-space: pre-wrap;
-            }
-            </style>
-            <h1 class="DieterHeading1">Imprint</h1>
-            <h2 class="HeadingLeft"><span>Provider</span></h2>
-            <p class="Body">Elyvia Biomedics GmbH i.G.</p>
-            <p class="Body">
-            <span class="multiline">
-Mühlerweg 1A
+        <div class="imprint-container">
+            <h1>Imprint</h1>
+            <h2>Provider</h2>
+            <p>Elyvia Biomedics GmbH i.G.</p>
+            <p><span class="multiline">Mühlerweg 1A
 81243 Munich
-Germany
-            </span></p>
-            <p class="Body">Represented by:</p>
-            <p class="Body">Management: Jae Yen Shin</p>
-            <h2 class="HeadingLeft"><span>Contact us</span></h2>
-            <p class="Body">E-Mail: contact@elyvia.bio</p>
-            <h2 class="HeadingLeft"><span>Register entry</span></h2>
-            <p class="Body">Commercial register: under incorporation</p>
-            <p class="Body">Register court: Munich Local Court</p>
-            <h2 class="HeadingLeft"><span>Sales tax ID</span></h2>
-            <p class="Body">In progress</p>
-            <h2 class="HeadingLeft"><span>Disclaimer</span></h2>
-            <p class="Body">We are responsible for the content of our website in accordance with the provisions of general law. All content is created with due care and to the best of our knowledge. Insofar as we refer to third-party websites on our Internet pages by means of hyperlinks, we cannot assume any liability for the continued topicality, correctness and completeness of the linked content, as this content is outside our area of responsibility and we have no influence on its future design. Should you consider any content to be in breach of applicable law or inappropriate, please let us know.</p>
-            <p class="Body">The legal information on this page as well as all questions and disputes in connection with the design of this website are subject to the laws of the Federal Republic of Germany.</p>
-            <h2 class="HeadingLeft"><span>Copyright notice</span></h2>
-            <p class="Body">The texts, images, photos, videos or graphics available on our website are generally subject to copyright protection. Any unauthorized use (especially copying, editing or distribution) of this copyright-protected content is therefore prohibited. If you intend to use this content or parts thereof, please contact us in advance using the details above. If we are not the owner of the required copyrighted rights of use ourselves, we will endeavor to arrange contact with the entitled party.</p>
-            <h2 class="HeadingLeft"><span>Social media profiles</span></h2>
-            <p class="Body">This legal notice also applies to the following social media profiles:</p>
-            <p class="Body">LinkedIn: <a href="https://www.linkedin.com/company/elyvia-biomedics">https://www.linkedin.com/company/elyvia-biomedics</a></p>
-            <p class="DieterSmall"><span>Created with the kind support of</span> <a href="https://www.dieter-datenschutz.de/"><span>Dieter does data protection</span></a></p>
+Germany</span></p>
+            <p>Represented by:</p>
+            <p>Management: Jae Yen Shin</p>
+            <h2>Contact</h2>
+            <p>E-Mail: contact@elyvia.bio</p>
+            <h2>Register entry</h2>
+            <p>Commercial register: under incorporation</p>
+            <p>Register court: Munich Local Court</p>
+            <h2>Sales tax ID</h2>
+            <p>In progress</p>
+            <h2>Disclaimer</h2>
+            <p>We are responsible for the content of our website in accordance with the provisions of general law. All content is created with due care and to the best of our knowledge. Insofar as we refer to third-party websites on our Internet pages by means of hyperlinks, we cannot assume any liability for the continued topicality, correctness and completeness of the linked content, as this content is outside our area of responsibility and we have no influence on its future design. Should you consider any content to be in breach of applicable law or inappropriate, please let us know.</p>
+            <p>The legal information on this page as well as all questions and disputes in connection with the design of this website are subject to the laws of the Federal Republic of Germany.</p>
+            <h2>Copyright notice</h2>
+            <p>The texts, images, photos, videos or graphics available on our website are generally subject to copyright protection. Any unauthorized use (especially copying, editing or distribution) of this copyright-protected content is therefore prohibited. If you intend to use this content or parts thereof, please contact us in advance using the details above. If we are not the owner of the required copyrighted rights of use ourselves, we will endeavor to arrange contact with the entitled party.</p>
+            <h2>Social media profiles</h2>
+            <p>This legal notice also applies to the following social media profiles:</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/company/elyvia-biomedics">https://www.linkedin.com/company/elyvia-biomedics</a></p>
+            <p class="small">Created with the kind support of <a href="https://www.dieter-datenschutz.de/">Dieter does data protection</a></p>
         </div>
     </main>
     <footer>
